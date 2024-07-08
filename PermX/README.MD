@@ -114,7 +114,7 @@ And retrieve a linpeas executable with wget on the remote machine
 After running linpeas I found a password on a php configuration file :
 ![password](https://image.noelshack.com/fichiers/2024/28/1/1720456843-screenshot-from-2024-07-08-16-19-59.png)
 
-Don't be confuse by the bcrypt in the log file the password is not encrypted
+Don't be confuse by the bcrypt in the config file the password is not encrypted
 
 So we have the following credentials mtz:03F6lY3uXAP2bkW8
 
