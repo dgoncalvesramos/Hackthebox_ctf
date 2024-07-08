@@ -1,4 +1,4 @@
-# PermX CTF
+# PermX CTF
 
 ## Initial foothold :
 
