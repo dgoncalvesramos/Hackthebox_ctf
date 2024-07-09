@@ -164,6 +164,7 @@ fi
 
 /usr/bin/sudo /usr/bin/setfacl -m u:"$user":"$perm" "$target"
 ```
+Basically, this is a simple bash script that allows an user to modify the permission of a file. 
 We can see that there is a flaw here, the check "$target" != /home/mtz/* || "$target" == *..* can be bypassed by using a symlink. For example, creating a symlink to the root folder
 
 ```bash
